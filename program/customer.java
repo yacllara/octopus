@@ -5,7 +5,7 @@ public class Customer{
   private int discount;
 }
 
-public Customerustumer (int id, String name, int discount) {
+public Customer (int id, String name, int discount) {
     this.id = id;
     this.name = name;
     this.discount = discount;
@@ -15,14 +15,14 @@ public int getId(){
     return this.id;
 }
 
-public string getName(){
+public String getName(){
     return this.name;
 }
 
 public int getDiscount(int discount){
-    this.discount = discount
+    this.discount = discount;
 }
 
-public string tostring(){
+public String tostring(){
     return this.name + "(" + this.id + ")(" + this.discount + "%)";
 }
